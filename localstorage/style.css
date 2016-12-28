@@ -64,6 +64,8 @@ html {
 
   .plates input:checked + label:before {
     content: '🌮';
+    color: red;
+    background-color: black;
   }
 
   .add-items {
@@ -74,4 +76,9 @@ html {
     padding:10px;
     outline:0;
     border:1px solid rgba(0,0,0,0.1);
+  }
+
+  input[type='button'] {
+    margin-top: 8px;
+    width: 91%;
   }
